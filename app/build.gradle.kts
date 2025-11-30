@@ -6,7 +6,6 @@ plugins {
     kotlin("kapt")
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.ksp)
-//    alias(libs.plugins.)
 }
 
 configurations.all {
@@ -25,7 +24,7 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField("String", "GOOGLE_BOOKS_API_KEY", "\"AIzaSyDy0INSV8S7sd47q-ZOL9ufdw5Lo_Bvr0w\"")
+        buildConfigField("String", "GOOGLE_BOOKS_API_KEY", "your_key")
 
         buildConfigField(
             "String",
@@ -95,7 +94,6 @@ dependencies {
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
     ksp(libs.androidx.room.compiler)
-//    kapt(libs.androidx.room.compiler)
 
     // Retrofit + OkHttp
     implementation(libs.retrofit)
