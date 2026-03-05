@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LitLens</string>
+    <string name="app_bar_title">BookAI</string>
+    <string name="input_hint">BookAI</string>
+    <string name="describe_btn">Describe</string>
+    <string name="similar_btn">Similar</string>
+    <string name="describe_title">Description</string>
+    <string name="similar_title">Similar books</string>
+    <string name="no_response_title">No response yet</string>
+</resources>

@@ -1,0 +1,15 @@
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# Kotlin
+.kotlin/
+
+# Gradle
+.gradle/
+**/build/
+
+# Android
+local.properties
+.DS_Store
+.gitignore_backup
